@@ -1,0 +1,54 @@
+{
+  "jobs": {
+    "edges": [
+      {
+        "node": {
+          "frontmatter": {
+            "title": "Backend Engineer",
+            "company": "Equity Bank Limited",
+            "location": "Nairobi, Kenya",
+            "range": "Oct 2021 - Present",
+            "url": "https://equitygroupholdings.com/ke/"
+          },
+          "html": "<ul>\n<li>Working on a highly scalable USSD mobile banking solution</li>\n<li>Assisted on the development of case management system for bank analysts.</li>\n<li>Developed a Credit Scoring system called PICO for the abnk and and its customers.</li>\n</ul>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "CTO",
+            "company": "Poshak COnsultancy Services PLC",
+            "location": "Bahirdar, Ethiopia",
+            "range": "Sep 2020 - Aug 2021",
+            "url": "https://poshakconsultancy.com/"
+          },
+          "html": "<ul>\n<li> Worked on a realtime irregular shape area calculator for our publication called <a href=\"https://www.inderscience.com/info/inarticle.php?artid=120314\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Developing a cost-effective and heuristic tool to solve cut order planning problems in the apparel industry published on Inderscience.</a> </li>\n<li>Developed a full scale ERP web and mobile app for the garment industry consisting of HR, Finance, Cut Order Planning, Packing modules.</li>\n</ul>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "TME Education Ambassador",
+            "company": "TME Education",
+            "location": "Lodz, Poland",
+            "range": "Oct 2018 - Present",
+            "url": "https://tmeeducation.com/en-ZZ"
+          },
+          "html": "<ul>\n<li>Trained more than 3500 student in Ethiopia about Electronics and Hardware programming for free.</li>\n<li>Developed few Robotics projects with my students.</li>\n<li>Developed a mobile application to give more insights and example codes about our educational kits and program them right from the app.</li></ul>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "Flutter developer",
+            "company": "TokenWave LLC",
+            "location": "California, USA",
+            "range": "Jun - Aug 2021",
+            "url": "https://www.tokenhead.io/"
+          },
+          "html": "<ul>\n<li>Assisted the development of a mobile application platform to organize WAX NFTs and balance them in one place.</li>\n</ul>"
+        }
+      }
+    ]
+  }
+}

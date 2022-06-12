@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+// import { useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import data from '../../data/jobs.json';
 
 const StyledJobsSection = styled.section`
   max-width: 700px;
@@ -165,27 +166,27 @@ const StyledTabPanel = styled.div`
 `;
 
 const Jobs = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      jobs: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/jobs/" } }
-        sort: { fields: [frontmatter___date], order: DESC }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title
-              company
-              location
-              range
-              url
-            }
-            html
-          }
-        }
-      }
-    }
-  `);
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     jobs: allMarkdownRemark(
+  //       filter: { fileAbsolutePath: { regex: "/jobs/" } }
+  //       sort: { fields: [frontmatter___date], order: DESC }
+  //     ) {
+  //       edges {
+  //         node {
+  //           frontmatter {
+  //             title
+  //             company
+  //             location
+  //             range
+  //             url
+  //           }
+  //           html
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
 
   const jobsData = data.jobs.edges;
 
@@ -261,7 +262,8 @@ const Jobs = () => {
                   role="tab"
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
-                  aria-controls={`panel-${i}`}>
+                  aria-controls={`panel-${i}`}
+                >
                   <span>{company}</span>
                 </StyledTabButton>
               );
@@ -283,7 +285,8 @@ const Jobs = () => {
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
-                    hidden={activeTabId !== i}>
+                    hidden={activeTabId !== i}
+                  >
                     <h3>
                       <span>{title}</span>
                       <span className="company">
