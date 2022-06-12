@@ -1,0 +1,61 @@
+{
+  "projects": {
+    "edges": [
+      {
+        "node": {
+          "frontmatter": {
+            "title": "Face Recognition",
+            "tech": ["Python", "OpenCV", "PIL"],
+            "github": "https://github.com/Tesfamichael1074/FaceRecognition",
+            "external": ""
+          },
+          "html": "<p> A real-time face recognition desktop app.</p>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "Flutter Ecommerce UI",
+            "tech": ["Flutter", "Dart", "UI"],
+            "github": "https://github.com/Tesfamichael1074/Flutter-Ecom",
+            "external": ""
+          },
+          "html": "<p>Open Source ecommerce UI made using Flutter framework.</p>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "TME Education kit Manual app",
+            "tech": ["Flutter", "Dart", "Java", "C#"],
+            "github": "https://github.com/Tesfamichael1074/TME-Education-Arduino-board-manual",
+            "external": ""
+          },
+          "html": "<p> A user manual mobile application for TME Education Arduino education kit.</p>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "Geez numbers hand writing recognition.",
+            "tech": ["Python", "PyQt5", "Numpy", "Keras"],
+            "github": "https://github.com/Ethiopian-AI-Programmers/Geez-numbers-hand-writing-recognition-system",
+            "external": ""
+          },
+          "html": "<p>Hand writing recognition for Ethiopian local language Amharic.</p>"
+        }
+      },
+      {
+        "node": {
+          "frontmatter": {
+            "title": "OCR for Amharic using Tesseract engine",
+            "tech": ["Python", "PyQt5", "Numpy", "Keras", "PyTesseract"],
+            "github": "https://github.com/Tesfamichael1074/AddisOCR",
+            "external": "https://medium.com/p/d31786a77cfb"
+          },
+          "html": "<p>A single page desktop GUI that can read Ethiopian local language Amharic from Images and Translate or export it to a digital format like .doc </p>"
+        }
+      }
+    ]
+  }
+}
